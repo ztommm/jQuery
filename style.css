@@ -1,0 +1,52 @@
+*{
+  background-color: #29283D;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0.5rem;
+
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+#cssElement {
+    background-color: #2DA5D7;
+
+    width: 200px;
+    animation: expandWidth 1s linear;
+}
+
+#jsElement {
+    width: 0;
+    color: black;
+    background-color: #F7DF1E;
+}
+#jQueryElement{
+    width: 0;
+    background-color: #0769AD;
+}
+
+@keyframes expandWidth {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 200px;
+    }
+}
