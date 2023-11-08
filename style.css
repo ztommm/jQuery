@@ -22,9 +22,7 @@ body {
   flex-direction: column;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   color: var(--secondary);
 }
 
@@ -37,12 +35,11 @@ h3 {
 }
 
 button {
-  background-color: var(--primary);
-  color: var(--text);
-  margin: 0 0.2rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 5px;
-  border: outset 2px var(--secondary);
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    color: white;
+    background-color: #3d3c58;
 }
 
 button:hover {
@@ -55,17 +52,6 @@ button:hover {
   display: flex;
   margin: 1rem 0;
   gap: 1rem;
-}
-
-#fadeInButton,
-#fadeOutButton,
-#ajax-button-all,
-#ajax-button-rng {
-  font-weight: 600;
-  padding: 0.6rem 1.2rem;
-  border: none;
-  color: white;
-  background-color: #3d3c58;
 }
 
 .anim-element {
@@ -149,7 +135,7 @@ button:hover {
 
 #hide-btn {
   position: absolute;
-  width: 4rem;
+  width: 6rem;
   right: 0.5rem;
   top: 0.5rem;
 }
