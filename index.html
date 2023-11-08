@@ -6,23 +6,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
-    <script src="script.js" defer></script>
-    <title>Document</title>
-    
+    <script src="animations.js" defer></script>
+    <script src="fade.js" defer></script>
+    <script src="hide-button.js" defer></script>
+    <script src="ajax.js" defer></script>
+    <title>jQuery</title>
 </head>
 
 <body>
-    <div class="element" id="cssElement">
-        CSS
-    </div>
-    <div class="element" id="jsElement">
-        JS
-    </div>
-    <div class="element" id="jQueryElement">
-        jQuery
-    </div>
+    <div id="content">
+        <h1>jQuery Piemeri</h1>
+        <div class="anim-element" id="cssElement">
+            CSS
+        </div>
+        <div class="anim-element" id="jsElement">
+            JS
+        </div>
+        <div class="anim-element" id="jQueryElement">
+            jQuery
+        </div>
 
+        <h2>Fade piemērs</h2>
+        <div class="fade-container">
+            <div class="fade-box">Šī ir "Fade" kaste</div>
+        </div>
+        <div class="buttons">
+        <button id="fadeInButton">Fade In</button>
+        <button id="fadeOutButton">Fade Out</button>
+        </div>
 
+        <h2>AJAX piemers</h2>
+        <div id="ajax-div">
+            
+        </div>
+        <div id="ajax-buttons">
+            <button id="ajax-button-all">Ielādēt saturu</button>
+            <button id="ajax-button-rng">Ielādēt nejaušu</button>
+        </div>
+    </div>  
+
+    <button id="hide-btn">Paslēpt</button>
 </body>
 
 </html>
