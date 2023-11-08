@@ -1,2 +1,2 @@
-<p id="p1" style="color: purple;">Šis ir paragrafs 1 no "ajax-content.txt"</p>
+<p id="p1" style="color: pink;">Šis ir paragrafs 1 no "ajax-content.txt"</p>
 <p id="p2" style="color: brown;">Šis arī ir no tā paša faila</p>
